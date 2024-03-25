@@ -29,30 +29,9 @@
       <div class="right-image">
         <img src="./images/download.jpeg" alt="Taxes image" />
       </div>
-      <div class="page-content">Plese enter employment information:</div>
-      <br />
-      <!-- Simple Textfield for length of side a-->
-      <form action="answer.php" method="POST">
-        <div class="mdl-textfield mdl-js-textfield">
-          <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="work-hours" />
-          <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="work-hours">Work hours ... (Weekly)</label>
-          <!-- class "mdl-textfield__error" -->
-          <span class="mdl-textfield__error">Input is not a number</span>
-        </div>
-        <br />
-        <div class="mdl-textfield mdl-js-textfield">
-          <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="pay-rate" />
-          <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="work-hours">Pay rate ... (Hourly)</label>
-          <!-- class "mdl-textfield__error" -->
-          <span class="mdl-textfield__error">Input is not a number</span>
-        </div>
-        <br />
-        <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-      </form>
+      <div class="page-content">
+        
+      </div>
     </main>
   </div>
 </body>
