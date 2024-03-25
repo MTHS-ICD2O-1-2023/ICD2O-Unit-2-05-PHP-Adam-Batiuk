@@ -35,7 +35,7 @@
         $payRate = $_POST["pay-rate"];
 
         $takeHomeSalary = ($workHours * $payRate) * (1 - 0.18);
-        $moneyTaxed = ($workHours * $payRate) * 0.18
+        $moneyTaxed = ($workHours * $payRate) * (0.18);
 
         echo "Your pay will be: $" . $takeHomeSalary;
         echo "The government gets: $" . $moneyTaxed;
