@@ -30,7 +30,16 @@
         <img src="./images/download.jpeg" alt="Taxes image" />
       </div>
       <div class="page-content">
-        
+        <?php
+        $workHours = $_POST["work-hours"];
+        $payRate = $_POST["pay-rate"];
+
+        $takeHomeSalary = ($workHours * $payRate) * (1 - 0.18);
+        $moneyTaxed = ($workHours * $payRate) * 0.18
+
+        echo "Your pay will be: $" . $takeHomeSalary;
+        echo "The government gets: $" . $moneyTaxed;
+        ?>
       </div>
     </main>
   </div>
